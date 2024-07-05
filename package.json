@@ -1,0 +1,31 @@
+{
+  "name": "neu-demos",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.mjs",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.2.4",
+    "@react-three/drei": "9.56.25",
+    "@react-three/fiber": "8.11.2",
+    "@react-three/xr": "^5.7.1",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5",
+    "three": "0.149.0",
+    "react-three": "^0.9.7"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4"
+  }
+}
